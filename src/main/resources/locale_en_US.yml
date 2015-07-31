@@ -1,0 +1,4 @@
+# Messages are declared in YAML
+# Variables are declared as $[variable_name] and will be replaced in the VarString
+# by calling #setVariable(String, String);
+winner-message: '&7Congratulations, $[player]&7! &aYou won Spleef! &7Here, have a cookie.'

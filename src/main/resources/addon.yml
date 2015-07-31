@@ -1,0 +1,15 @@
+name: ExampleAddon
+version: 1.0
+author: matzefratze123
+i18n: dynamic
+
+main: de.matzefratze123.exampleaddon.ExampleAddon
+
+commands:
+- de.matzefratze123.exampleaddon.ExampleCommand
+
+flags:
+- de.matzefratze123.exampleaddon.ExampleFlag
+
+extensions:
+- de.matzefratze123.exampleaddon.ExampleExtension
